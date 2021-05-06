@@ -1,7 +1,7 @@
 import React from 'react'
-import ContactCard from './ContactCard'
+import ContactCard from './ClientCard'
 
-const ContactList = (props) => {
+const ListaClientes = (props) => {
 
     const deleteContactHandler = (id) => {
         props.getContactId(id)
@@ -20,4 +20,4 @@ const ContactList = (props) => {
     )
 }
 
-export default ContactList
+export default ListaClientes
